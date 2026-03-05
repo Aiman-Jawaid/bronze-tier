@@ -1,0 +1,664 @@
+2026-02-27 20:57:08,418 - INFO - ==================================================
+2026-02-27 20:57:08,419 - INFO - Gmail Watcher (Silver Tier) Starting...
+2026-02-27 20:57:08,419 - INFO - Poll interval: 120 seconds
+2026-02-27 20:57:08,420 - INFO - Needs_Action folder: C:\Users\tanze\OneDrive\Desktop\hackathon-0\AI_Employee_Folder\Needs_Action
+2026-02-27 20:57:08,421 - INFO - ==================================================
+2026-02-27 20:57:08,422 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-27 20:57:08,422 - INFO - Starting OAuth flow...
+2026-02-27 20:57:08,812 - INFO - Please visit this URL to authorize this application: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A58145%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.readonly&state=FH84q36hNRq0PQmhkvyjJWUKzhH8kH&code_challenge=SAJj8n3fAsjOx-SI69lG0jYoZ7vsZpUdOo5zumfBPwk&code_challenge_method=S256&access_type=offline
+2026-02-27 21:31:00,467 - INFO - ==================================================
+2026-02-27 21:31:00,467 - INFO - Gmail Watcher (Silver Tier) Starting...
+2026-02-27 21:31:00,467 - INFO - Poll interval: 120 seconds
+2026-02-27 21:31:00,468 - INFO - Needs_Action folder: C:\Users\tanze\OneDrive\Desktop\hackathon-0\AI_Employee_Folder\Needs_Action
+2026-02-27 21:31:00,468 - INFO - ==================================================
+2026-02-27 21:31:00,468 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-27 21:31:00,468 - INFO - Starting OAuth flow...
+2026-02-27 21:31:00,815 - INFO - Please visit this URL to authorize this application: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A58562%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.readonly&state=p55AOZNu4ASwONGWaJLg3wQiHfFdJM&code_challenge=YG4wz-sKU3cnTTUWYS8QVXf1rcz6jFmKV18ajexL0ZI&code_challenge_method=S256&access_type=offline
+2026-02-27 21:36:12,230 - INFO - "GET /?state=p55AOZNu4ASwONGWaJLg3wQiHfFdJM&iss=https://accounts.google.com&code=4/0AfrIepAtxnOOC1KuWJazsojvdXPv1176a1CqQsKZf0gO6f2SXNK15XozuYHXRv_7jKHbqg&scope=https://www.googleapis.com/auth/gmail.readonly HTTP/1.1" 200 65
+2026-02-27 21:36:14,536 - INFO - OAuth completed
+2026-02-27 21:36:14,538 - INFO - Saved new token
+2026-02-27 21:36:14,546 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-02-27 21:36:18,249 - INFO - Fetched email: A shipment from order #2555067 has been delivered
+2026-02-27 21:36:19,090 - INFO - Fetched email: [GitHub] Sudo email verification code
+2026-02-27 21:36:20,463 - INFO - Fetched email: [GitHub] Sudo email verification code
+2026-02-27 21:36:21,469 - INFO - Fetched email: Verify your email to continue to Proton
+2026-02-27 21:36:22,167 - INFO - Fetched email: Your Snapchat data is ready for download
+2026-02-27 21:36:23,398 - INFO - Fetched email: Microsoft account security info was deleted
+2026-02-27 21:36:24,352 - INFO - Fetched email: Yay! Your first listing is live.
+2026-02-27 21:36:25,174 - INFO - Fetched email: Aiman, these Creative Writing, Ghostwriting, and C
+2026-02-27 21:36:26,569 - INFO - Fetched email: Exclusive Interview with Governor Sindh Kamran Kha
+2026-02-27 21:36:27,415 - INFO - Fetched email: 359178 is your password reset code
+2026-02-27 21:36:27,415 - INFO - Found 10 unread important email(s)
+2026-02-27 21:36:27,417 - INFO - Created action file: gmail_20260227_213627_A shipment from order #2555067 has been delivered.md
+2026-02-27 21:36:27,419 - INFO - Processed email ID: 19b7f50da4baa673
+2026-02-27 21:36:27,421 - INFO - Created action file: gmail_20260227_213627_[GitHub] Sudo email verification code.md
+2026-02-27 21:36:27,423 - INFO - Processed email ID: 19b353d487fe96e9
+2026-02-27 21:36:27,424 - INFO - Created action file: gmail_20260227_213627_[GitHub] Sudo email verification code.md
+2026-02-27 21:36:27,426 - INFO - Processed email ID: 19b3027de8451370
+2026-02-27 21:36:27,427 - INFO - Created action file: gmail_20260227_213627_Verify your email to continue to Proton.md
+2026-02-27 21:36:27,430 - INFO - Processed email ID: 19abf20d019dde65
+2026-02-27 21:36:27,431 - INFO - Created action file: gmail_20260227_213627_Your Snapchat data is ready for download.md
+2026-02-27 21:36:27,432 - INFO - Processed email ID: 19a9e90933dabbcf
+2026-02-27 21:36:27,434 - INFO - Created action file: gmail_20260227_213627_Microsoft account security info was deleted.md
+2026-02-27 21:36:27,439 - INFO - Processed email ID: 196e99ab4b546aeb
+2026-02-27 21:36:27,441 - INFO - Created action file: gmail_20260227_213627_Yay! Your first listing is live..md
+2026-02-27 21:36:27,445 - INFO - Processed email ID: 196ae3b90951daa7
+2026-02-27 21:36:27,447 - INFO - Created action file: gmail_20260227_213627_Aiman, these Creative Writing, Ghostwriting, and C.md
+2026-02-27 21:36:27,448 - INFO - Processed email ID: 1964c83426def70e
+2026-02-27 21:36:27,449 - INFO - Created action file: gmail_20260227_213627_Exclusive Interview with Governor Sindh Kamran Kha.md
+2026-02-27 21:36:27,457 - INFO - Processed email ID: 196158533eb6159a
+2026-02-27 21:36:27,459 - INFO - Created action file: gmail_20260227_213627_359178 is your password reset code.md
+2026-02-27 21:36:27,461 - INFO - Processed email ID: 195952061b10e490
+2026-02-27 21:36:27,461 - INFO - Check completed at 2026-02-27 21:36:27
+2026-02-27 21:36:27,462 - INFO - Next check in 120 seconds...
+2026-02-27 21:38:27,463 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-27 21:38:27,513 - INFO - Loaded existing credentials
+2026-02-27 21:38:27,515 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-02-27 21:38:31,217 - INFO - Fetched email: A shipment from order #2555067 has been delivered
+2026-02-27 21:38:31,956 - INFO - Fetched email: [GitHub] Sudo email verification code
+2026-02-27 21:38:32,658 - INFO - Fetched email: [GitHub] Sudo email verification code
+2026-02-27 21:38:33,553 - INFO - Fetched email: Verify your email to continue to Proton
+2026-02-27 21:38:34,713 - INFO - Fetched email: Your Snapchat data is ready for download
+2026-02-27 21:38:35,421 - INFO - Fetched email: Microsoft account security info was deleted
+2026-02-27 21:38:36,298 - INFO - Fetched email: Yay! Your first listing is live.
+2026-02-27 21:38:38,725 - INFO - Fetched email: Aiman, these Creative Writing, Ghostwriting, and C
+2026-02-27 21:38:49,136 - INFO - Fetched email: Exclusive Interview with Governor Sindh Kamran Kha
+2026-02-27 21:38:49,903 - INFO - Fetched email: 359178 is your password reset code
+2026-02-27 21:38:49,904 - INFO - Found 10 unread important email(s)
+2026-02-27 21:38:49,905 - INFO - Check completed at 2026-02-27 21:38:49
+2026-02-27 21:38:49,906 - INFO - Next check in 120 seconds...
+2026-02-27 21:40:49,906 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-27 21:40:49,908 - INFO - Loaded existing credentials
+2026-02-27 21:40:49,911 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-02-27 21:40:54,173 - INFO - Fetched email: A shipment from order #2555067 has been delivered
+2026-02-27 21:40:55,504 - INFO - Fetched email: [GitHub] Sudo email verification code
+2026-02-27 21:40:57,428 - INFO - Fetched email: [GitHub] Sudo email verification code
+2026-02-27 21:41:00,704 - INFO - Fetched email: Verify your email to continue to Proton
+2026-02-27 21:41:08,635 - INFO - Fetched email: Your Snapchat data is ready for download
+2026-02-27 21:41:09,343 - INFO - Fetched email: Microsoft account security info was deleted
+2026-02-27 21:41:10,731 - INFO - Fetched email: Yay! Your first listing is live.
+2026-02-27 21:41:13,693 - INFO - Fetched email: Aiman, these Creative Writing, Ghostwriting, and C
+2026-02-27 21:41:18,720 - INFO - Fetched email: Exclusive Interview with Governor Sindh Kamran Kha
+2026-02-27 21:41:32,433 - INFO - Fetched email: 359178 is your password reset code
+2026-02-27 21:41:32,434 - INFO - Found 10 unread important email(s)
+2026-02-27 21:41:32,434 - INFO - Check completed at 2026-02-27 21:41:32
+2026-02-27 21:41:32,435 - INFO - Next check in 120 seconds...
+2026-02-27 21:43:32,436 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-27 21:43:32,437 - INFO - Loaded existing credentials
+2026-02-27 21:43:32,441 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-02-27 21:43:35,167 - INFO - Fetched email: A shipment from order #2555067 has been delivered
+2026-02-27 21:43:35,686 - INFO - Fetched email: [GitHub] Sudo email verification code
+2026-02-27 21:43:36,817 - INFO - Fetched email: [GitHub] Sudo email verification code
+2026-02-27 21:43:37,400 - INFO - Fetched email: Verify your email to continue to Proton
+2026-02-27 21:43:38,216 - INFO - Fetched email: Your Snapchat data is ready for download
+2026-02-27 21:43:38,730 - INFO - Fetched email: Microsoft account security info was deleted
+2026-02-27 21:43:39,296 - INFO - Fetched email: Yay! Your first listing is live.
+2026-02-27 21:43:39,814 - INFO - Fetched email: Aiman, these Creative Writing, Ghostwriting, and C
+2026-02-27 21:43:40,308 - INFO - Fetched email: Exclusive Interview with Governor Sindh Kamran Kha
+2026-02-27 21:43:40,823 - INFO - Fetched email: 359178 is your password reset code
+2026-02-27 21:43:40,823 - INFO - Found 10 unread important email(s)
+2026-02-27 21:43:40,823 - INFO - Check completed at 2026-02-27 21:43:40
+2026-02-27 21:43:40,824 - INFO - Next check in 120 seconds...
+2026-02-27 21:45:40,824 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-27 21:45:40,825 - INFO - Loaded existing credentials
+2026-02-27 21:45:40,829 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-02-27 21:45:42,701 - INFO - Fetched email: A shipment from order #2555067 has been delivered
+2026-02-27 21:45:44,454 - INFO - Fetched email: [GitHub] Sudo email verification code
+2026-02-27 21:45:47,372 - INFO - Fetched email: [GitHub] Sudo email verification code
+2026-02-27 21:45:55,176 - INFO - Fetched email: Verify your email to continue to Proton
+2026-02-27 21:45:55,673 - INFO - Fetched email: Your Snapchat data is ready for download
+2026-02-27 21:45:56,181 - INFO - Fetched email: Microsoft account security info was deleted
+2026-02-27 21:45:57,951 - INFO - Fetched email: Yay! Your first listing is live.
+2026-02-27 21:46:00,878 - INFO - Fetched email: Aiman, these Creative Writing, Ghostwriting, and C
+2026-02-27 21:46:08,587 - INFO - Fetched email: Exclusive Interview with Governor Sindh Kamran Kha
+2026-02-27 21:46:09,102 - INFO - Fetched email: 359178 is your password reset code
+2026-02-27 21:46:09,103 - INFO - Found 10 unread important email(s)
+2026-02-27 21:46:09,103 - INFO - Check completed at 2026-02-27 21:46:09
+2026-02-27 21:46:09,103 - INFO - Next check in 120 seconds...
+2026-02-27 21:48:09,104 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-27 21:48:09,105 - INFO - Loaded existing credentials
+2026-02-27 21:48:09,108 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-02-27 21:48:11,983 - INFO - Fetched email: A shipment from order #2555067 has been delivered
+2026-02-27 21:48:12,490 - INFO - Fetched email: [GitHub] Sudo email verification code
+2026-02-27 21:48:13,603 - INFO - Fetched email: [GitHub] Sudo email verification code
+2026-02-27 21:48:14,183 - INFO - Fetched email: Verify your email to continue to Proton
+2026-02-27 21:48:14,697 - INFO - Fetched email: Your Snapchat data is ready for download
+2026-02-27 21:48:16,168 - INFO - Fetched email: Microsoft account security info was deleted
+2026-02-27 21:48:17,978 - INFO - Fetched email: Yay! Your first listing is live.
+2026-02-27 21:48:18,526 - INFO - Fetched email: Aiman, these Creative Writing, Ghostwriting, and C
+2026-02-27 21:48:19,083 - INFO - Fetched email: Exclusive Interview with Governor Sindh Kamran Kha
+2026-02-27 21:48:19,606 - INFO - Fetched email: 359178 is your password reset code
+2026-02-27 21:48:19,606 - INFO - Found 10 unread important email(s)
+2026-02-27 21:48:19,606 - INFO - Check completed at 2026-02-27 21:48:19
+2026-02-27 21:48:19,607 - INFO - Next check in 120 seconds...
+2026-02-27 21:50:19,607 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-27 21:50:19,608 - INFO - Loaded existing credentials
+2026-02-27 21:50:19,610 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-02-27 21:50:21,966 - INFO - Fetched email: A shipment from order #2555067 has been delivered
+2026-02-27 21:50:23,099 - INFO - Fetched email: [GitHub] Sudo email verification code
+2026-02-27 21:50:23,605 - INFO - Fetched email: [GitHub] Sudo email verification code
+2026-02-27 21:50:24,177 - INFO - Fetched email: Verify your email to continue to Proton
+2026-02-27 21:50:24,676 - INFO - Fetched email: Your Snapchat data is ready for download
+2026-02-27 21:50:25,520 - INFO - Fetched email: Microsoft account security info was deleted
+2026-02-27 21:50:26,400 - INFO - Fetched email: Yay! Your first listing is live.
+2026-02-27 21:50:26,938 - INFO - Fetched email: Aiman, these Creative Writing, Ghostwriting, and C
+2026-02-27 21:50:27,481 - INFO - Fetched email: Exclusive Interview with Governor Sindh Kamran Kha
+2026-02-27 21:50:28,519 - INFO - Fetched email: 359178 is your password reset code
+2026-02-27 21:50:28,519 - INFO - Found 10 unread important email(s)
+2026-02-27 21:50:28,520 - INFO - Check completed at 2026-02-27 21:50:28
+2026-02-27 21:50:28,520 - INFO - Next check in 120 seconds...
+2026-02-27 21:52:28,521 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-27 21:52:28,522 - INFO - Loaded existing credentials
+2026-02-27 21:52:28,528 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-02-27 21:52:32,405 - INFO - Fetched email: A shipment from order #2555067 has been delivered
+2026-02-27 21:52:33,005 - INFO - Fetched email: [GitHub] Sudo email verification code
+2026-02-27 21:52:33,511 - INFO - Fetched email: [GitHub] Sudo email verification code
+2026-02-27 21:52:34,057 - INFO - Fetched email: Verify your email to continue to Proton
+2026-02-27 21:52:34,560 - INFO - Fetched email: Your Snapchat data is ready for download
+2026-02-27 21:52:36,300 - INFO - Fetched email: Microsoft account security info was deleted
+2026-02-27 21:52:36,937 - INFO - Fetched email: Yay! Your first listing is live.
+2026-02-27 21:52:37,528 - INFO - Fetched email: Aiman, these Creative Writing, Ghostwriting, and C
+2026-02-27 21:52:38,011 - INFO - Fetched email: Exclusive Interview with Governor Sindh Kamran Kha
+2026-02-27 21:52:38,840 - INFO - Fetched email: 359178 is your password reset code
+2026-02-27 21:52:38,841 - INFO - Found 10 unread important email(s)
+2026-02-27 21:52:38,842 - INFO - Check completed at 2026-02-27 21:52:38
+2026-02-27 21:52:38,843 - INFO - Next check in 120 seconds...
+2026-02-28 06:56:36,070 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:56:36,072 - INFO - Loaded existing credentials
+2026-02-28 06:56:43,534 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NewConnectionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to establish a new connection: [WinError 10053] An established connection was aborted by the software in your host machine"))
+2026-02-28 06:56:48,567 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:56:48,568 - INFO - Loaded existing credentials
+2026-02-28 06:56:48,570 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:56:53,572 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:56:53,573 - INFO - Loaded existing credentials
+2026-02-28 06:56:53,575 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:56:53,576 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:56:53,576 - INFO - Retrying in 5 seconds...
+2026-02-28 06:56:58,578 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:56:58,581 - INFO - Loaded existing credentials
+2026-02-28 06:56:58,589 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:57:03,592 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:57:03,595 - INFO - Loaded existing credentials
+2026-02-28 06:57:03,604 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:57:08,606 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:57:08,608 - INFO - Loaded existing credentials
+2026-02-28 06:57:08,610 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:57:08,610 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:57:08,611 - INFO - Retrying in 5 seconds...
+2026-02-28 06:57:13,612 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:57:13,613 - INFO - Loaded existing credentials
+2026-02-28 06:57:13,614 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:57:18,616 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:57:18,619 - INFO - Loaded existing credentials
+2026-02-28 06:57:18,626 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:57:23,627 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:57:23,628 - INFO - Loaded existing credentials
+2026-02-28 06:57:23,630 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:57:23,630 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:57:23,631 - INFO - Retrying in 5 seconds...
+2026-02-28 06:57:28,633 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:57:28,637 - INFO - Loaded existing credentials
+2026-02-28 06:57:28,639 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:57:33,640 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:57:33,644 - INFO - Loaded existing credentials
+2026-02-28 06:57:33,646 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:57:38,647 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:57:38,648 - INFO - Loaded existing credentials
+2026-02-28 06:57:38,651 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:57:38,652 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:57:38,652 - INFO - Retrying in 5 seconds...
+2026-02-28 06:57:43,654 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:57:43,658 - INFO - Loaded existing credentials
+2026-02-28 06:57:43,664 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:57:48,665 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:57:48,666 - INFO - Loaded existing credentials
+2026-02-28 06:57:48,670 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:57:53,671 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:57:53,674 - INFO - Loaded existing credentials
+2026-02-28 06:57:53,678 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:57:53,678 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:57:53,679 - INFO - Retrying in 5 seconds...
+2026-02-28 06:57:58,681 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:57:58,684 - INFO - Loaded existing credentials
+2026-02-28 06:57:58,690 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:58:03,692 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:58:03,693 - INFO - Loaded existing credentials
+2026-02-28 06:58:03,697 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:58:08,701 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:58:08,703 - INFO - Loaded existing credentials
+2026-02-28 06:58:08,710 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:58:08,711 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:58:08,716 - INFO - Retrying in 5 seconds...
+2026-02-28 06:58:13,718 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:58:13,721 - INFO - Loaded existing credentials
+2026-02-28 06:58:13,727 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:58:18,729 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:58:18,731 - INFO - Loaded existing credentials
+2026-02-28 06:58:18,735 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:58:23,736 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:58:23,737 - INFO - Loaded existing credentials
+2026-02-28 06:58:23,746 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:58:23,749 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:58:23,750 - INFO - Retrying in 5 seconds...
+2026-02-28 06:58:28,751 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:58:28,753 - INFO - Loaded existing credentials
+2026-02-28 06:58:28,755 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:58:33,757 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:58:33,760 - INFO - Loaded existing credentials
+2026-02-28 06:58:33,764 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:58:38,767 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:58:38,768 - INFO - Loaded existing credentials
+2026-02-28 06:58:38,769 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:58:38,770 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:58:38,770 - INFO - Retrying in 5 seconds...
+2026-02-28 06:58:43,772 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:58:43,773 - INFO - Loaded existing credentials
+2026-02-28 06:58:43,784 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:58:48,787 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:58:48,789 - INFO - Loaded existing credentials
+2026-02-28 06:58:48,795 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:58:53,797 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:58:53,801 - INFO - Loaded existing credentials
+2026-02-28 06:58:53,808 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:58:53,808 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:58:53,808 - INFO - Retrying in 5 seconds...
+2026-02-28 06:58:58,810 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:58:58,814 - INFO - Loaded existing credentials
+2026-02-28 06:58:58,816 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:59:03,818 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:59:03,821 - INFO - Loaded existing credentials
+2026-02-28 06:59:03,829 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:59:08,831 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:59:08,835 - INFO - Loaded existing credentials
+2026-02-28 06:59:08,841 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:59:08,843 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:59:08,848 - INFO - Retrying in 5 seconds...
+2026-02-28 06:59:13,851 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:59:13,852 - INFO - Loaded existing credentials
+2026-02-28 06:59:13,855 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:59:18,857 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:59:18,861 - INFO - Loaded existing credentials
+2026-02-28 06:59:18,868 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:59:23,870 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:59:23,874 - INFO - Loaded existing credentials
+2026-02-28 06:59:23,880 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:59:23,880 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:59:23,880 - INFO - Retrying in 5 seconds...
+2026-02-28 06:59:28,882 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:59:28,886 - INFO - Loaded existing credentials
+2026-02-28 06:59:28,892 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:59:33,894 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:59:33,897 - INFO - Loaded existing credentials
+2026-02-28 06:59:33,907 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:59:38,909 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:59:38,912 - INFO - Loaded existing credentials
+2026-02-28 06:59:38,917 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:59:38,919 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:59:38,923 - INFO - Retrying in 5 seconds...
+2026-02-28 06:59:43,925 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:59:43,928 - INFO - Loaded existing credentials
+2026-02-28 06:59:43,935 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:59:48,937 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:59:48,940 - INFO - Loaded existing credentials
+2026-02-28 06:59:48,954 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:59:53,956 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:59:53,959 - INFO - Loaded existing credentials
+2026-02-28 06:59:53,966 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:59:53,968 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 06:59:53,972 - INFO - Retrying in 5 seconds...
+2026-02-28 06:59:58,974 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 06:59:58,975 - INFO - Loaded existing credentials
+2026-02-28 06:59:58,977 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:00:03,979 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:00:03,986 - INFO - Loaded existing credentials
+2026-02-28 07:00:03,993 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:00:08,996 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:00:09,000 - INFO - Loaded existing credentials
+2026-02-28 07:00:09,001 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:00:09,002 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:00:09,002 - INFO - Retrying in 5 seconds...
+2026-02-28 07:00:14,004 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:00:14,006 - INFO - Loaded existing credentials
+2026-02-28 07:00:14,012 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:00:19,014 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:00:19,016 - INFO - Loaded existing credentials
+2026-02-28 07:00:19,018 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:00:24,020 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:00:24,023 - INFO - Loaded existing credentials
+2026-02-28 07:00:24,029 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:00:24,029 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:00:24,030 - INFO - Retrying in 5 seconds...
+2026-02-28 07:00:29,031 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:00:29,033 - INFO - Loaded existing credentials
+2026-02-28 07:00:29,038 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:00:34,041 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:00:34,044 - INFO - Loaded existing credentials
+2026-02-28 07:00:34,050 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:00:39,053 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:00:39,057 - INFO - Loaded existing credentials
+2026-02-28 07:00:39,058 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:00:39,059 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:00:39,060 - INFO - Retrying in 5 seconds...
+2026-02-28 07:00:44,061 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:00:44,062 - INFO - Loaded existing credentials
+2026-02-28 07:00:44,063 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:00:49,065 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:00:49,068 - INFO - Loaded existing credentials
+2026-02-28 07:00:49,076 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:00:54,078 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:00:54,081 - INFO - Loaded existing credentials
+2026-02-28 07:00:54,088 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:00:54,089 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:00:54,090 - INFO - Retrying in 5 seconds...
+2026-02-28 07:00:59,092 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:00:59,095 - INFO - Loaded existing credentials
+2026-02-28 07:00:59,097 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:01:04,099 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:01:04,101 - INFO - Loaded existing credentials
+2026-02-28 07:01:04,119 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:01:09,121 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:01:09,123 - INFO - Loaded existing credentials
+2026-02-28 07:01:09,134 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:01:09,136 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:01:09,138 - INFO - Retrying in 5 seconds...
+2026-02-28 07:01:14,139 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:01:14,141 - INFO - Loaded existing credentials
+2026-02-28 07:01:14,143 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:01:19,143 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:01:19,144 - INFO - Loaded existing credentials
+2026-02-28 07:01:19,146 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:01:24,147 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:01:24,148 - INFO - Loaded existing credentials
+2026-02-28 07:01:24,152 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:01:24,152 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:01:24,154 - INFO - Retrying in 5 seconds...
+2026-02-28 07:01:29,157 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:01:29,161 - INFO - Loaded existing credentials
+2026-02-28 07:01:29,162 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:01:34,164 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:01:34,167 - INFO - Loaded existing credentials
+2026-02-28 07:01:34,175 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:01:39,177 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:01:39,179 - INFO - Loaded existing credentials
+2026-02-28 07:01:39,186 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:01:39,187 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:01:39,188 - INFO - Retrying in 5 seconds...
+2026-02-28 07:01:44,190 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:01:44,193 - INFO - Loaded existing credentials
+2026-02-28 07:01:44,199 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:01:49,201 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:01:49,204 - INFO - Loaded existing credentials
+2026-02-28 07:01:49,213 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:01:54,215 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:01:54,217 - INFO - Loaded existing credentials
+2026-02-28 07:01:54,223 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:01:54,224 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:01:54,224 - INFO - Retrying in 5 seconds...
+2026-02-28 07:01:59,226 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:01:59,229 - INFO - Loaded existing credentials
+2026-02-28 07:01:59,235 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:02:04,238 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:02:04,241 - INFO - Loaded existing credentials
+2026-02-28 07:02:04,249 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:02:09,251 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:02:09,254 - INFO - Loaded existing credentials
+2026-02-28 07:02:09,260 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:02:09,260 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:02:09,261 - INFO - Retrying in 5 seconds...
+2026-02-28 07:02:14,262 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:02:14,266 - INFO - Loaded existing credentials
+2026-02-28 07:02:14,272 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:02:19,274 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:02:19,275 - INFO - Loaded existing credentials
+2026-02-28 07:02:19,276 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:02:24,278 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:02:24,279 - INFO - Loaded existing credentials
+2026-02-28 07:02:24,282 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:02:24,282 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:02:24,283 - INFO - Retrying in 5 seconds...
+2026-02-28 07:02:29,286 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:02:29,289 - INFO - Loaded existing credentials
+2026-02-28 07:02:29,295 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:02:34,296 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:02:34,300 - INFO - Loaded existing credentials
+2026-02-28 07:02:34,324 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:02:39,327 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:02:39,330 - INFO - Loaded existing credentials
+2026-02-28 07:02:39,336 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:02:39,341 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:02:39,344 - INFO - Retrying in 5 seconds...
+2026-02-28 07:02:44,347 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:02:44,350 - INFO - Loaded existing credentials
+2026-02-28 07:02:44,354 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:02:49,355 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:02:49,356 - INFO - Loaded existing credentials
+2026-02-28 07:02:49,364 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:02:54,366 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:02:54,367 - INFO - Loaded existing credentials
+2026-02-28 07:02:54,368 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:02:54,369 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:02:54,369 - INFO - Retrying in 5 seconds...
+2026-02-28 07:02:59,371 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:02:59,374 - INFO - Loaded existing credentials
+2026-02-28 07:02:59,381 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:03:04,383 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:03:04,386 - INFO - Loaded existing credentials
+2026-02-28 07:03:04,396 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:03:09,398 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:03:09,401 - INFO - Loaded existing credentials
+2026-02-28 07:03:09,408 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:03:09,408 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:03:09,409 - INFO - Retrying in 5 seconds...
+2026-02-28 07:03:14,411 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:03:14,415 - INFO - Loaded existing credentials
+2026-02-28 07:03:14,418 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:03:19,419 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:03:19,421 - INFO - Loaded existing credentials
+2026-02-28 07:03:19,431 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:03:24,433 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:03:24,437 - INFO - Loaded existing credentials
+2026-02-28 07:03:24,444 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:03:24,444 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:03:24,445 - INFO - Retrying in 5 seconds...
+2026-02-28 07:03:29,446 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:03:29,449 - INFO - Loaded existing credentials
+2026-02-28 07:03:29,455 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:03:34,458 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:03:34,461 - INFO - Loaded existing credentials
+2026-02-28 07:03:34,472 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:03:39,473 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:03:39,476 - INFO - Loaded existing credentials
+2026-02-28 07:03:39,481 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:03:39,482 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:03:39,483 - INFO - Retrying in 5 seconds...
+2026-02-28 07:03:44,484 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:03:44,487 - INFO - Loaded existing credentials
+2026-02-28 07:03:44,493 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:03:49,496 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:03:49,499 - INFO - Loaded existing credentials
+2026-02-28 07:03:49,504 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:03:54,506 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:03:54,509 - INFO - Loaded existing credentials
+2026-02-28 07:03:54,517 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:03:54,518 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:03:54,523 - INFO - Retrying in 5 seconds...
+2026-02-28 07:03:59,524 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:03:59,527 - INFO - Loaded existing credentials
+2026-02-28 07:03:59,533 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:04:04,536 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:04:04,540 - INFO - Loaded existing credentials
+2026-02-28 07:04:04,551 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:04:09,553 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:04:09,557 - INFO - Loaded existing credentials
+2026-02-28 07:04:09,563 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:04:09,563 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:04:09,564 - INFO - Retrying in 5 seconds...
+2026-02-28 07:04:14,565 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:04:14,568 - INFO - Loaded existing credentials
+2026-02-28 07:04:14,573 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:04:19,575 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:04:19,576 - INFO - Loaded existing credentials
+2026-02-28 07:04:19,582 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:04:24,583 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:04:24,586 - INFO - Loaded existing credentials
+2026-02-28 07:04:24,590 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:04:24,590 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:04:24,591 - INFO - Retrying in 5 seconds...
+2026-02-28 07:04:29,593 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:04:29,595 - INFO - Loaded existing credentials
+2026-02-28 07:04:29,603 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:04:34,606 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:04:34,609 - INFO - Loaded existing credentials
+2026-02-28 07:04:34,620 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:04:39,622 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:04:39,625 - INFO - Loaded existing credentials
+2026-02-28 07:04:39,628 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:04:39,629 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:04:39,630 - INFO - Retrying in 5 seconds...
+2026-02-28 07:04:44,632 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:04:44,635 - INFO - Loaded existing credentials
+2026-02-28 07:04:44,641 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:04:49,643 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:04:49,645 - INFO - Loaded existing credentials
+2026-02-28 07:04:49,657 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:04:54,659 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:04:54,663 - INFO - Loaded existing credentials
+2026-02-28 07:04:54,669 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:04:54,670 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:04:54,670 - INFO - Retrying in 5 seconds...
+2026-02-28 07:04:59,672 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:04:59,675 - INFO - Loaded existing credentials
+2026-02-28 07:04:59,684 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:05:04,688 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:05:04,693 - INFO - Loaded existing credentials
+2026-02-28 07:05:04,698 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:05:09,700 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:05:09,703 - INFO - Loaded existing credentials
+2026-02-28 07:05:09,709 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:05:09,709 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:05:09,710 - INFO - Retrying in 5 seconds...
+2026-02-28 07:05:14,712 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:05:14,715 - INFO - Loaded existing credentials
+2026-02-28 07:05:14,721 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:05:19,722 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:05:19,722 - INFO - Loaded existing credentials
+2026-02-28 07:05:19,740 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:05:24,747 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:05:24,749 - INFO - Loaded existing credentials
+2026-02-28 07:05:24,754 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:05:24,756 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:05:24,759 - INFO - Retrying in 5 seconds...
+2026-02-28 07:05:29,760 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:05:29,761 - INFO - Loaded existing credentials
+2026-02-28 07:05:29,763 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:05:34,764 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:05:34,766 - INFO - Loaded existing credentials
+2026-02-28 07:05:34,788 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:05:39,790 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:05:39,793 - INFO - Loaded existing credentials
+2026-02-28 07:05:39,800 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:05:39,800 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:05:39,801 - INFO - Retrying in 5 seconds...
+2026-02-28 07:05:44,802 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:05:44,802 - INFO - Loaded existing credentials
+2026-02-28 07:05:44,805 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:05:49,806 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:05:49,808 - INFO - Loaded existing credentials
+2026-02-28 07:05:49,811 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:05:54,813 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:05:54,814 - INFO - Loaded existing credentials
+2026-02-28 07:05:54,817 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:05:54,818 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:05:54,820 - INFO - Retrying in 5 seconds...
+2026-02-28 07:05:59,822 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:05:59,823 - INFO - Loaded existing credentials
+2026-02-28 07:05:59,826 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:06:04,828 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:06:04,829 - INFO - Loaded existing credentials
+2026-02-28 07:06:04,837 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:06:09,838 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:06:09,839 - INFO - Loaded existing credentials
+2026-02-28 07:06:09,841 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:06:09,842 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:06:09,843 - INFO - Retrying in 5 seconds...
+2026-02-28 07:06:14,880 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:06:14,927 - INFO - Loaded existing credentials
+2026-02-28 07:06:14,931 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:06:19,933 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:06:19,934 - INFO - Loaded existing credentials
+2026-02-28 07:06:19,943 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:06:24,946 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:06:24,948 - INFO - Loaded existing credentials
+2026-02-28 07:06:24,951 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:06:24,952 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:06:24,956 - INFO - Retrying in 5 seconds...
+2026-02-28 07:06:29,957 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:06:29,959 - INFO - Loaded existing credentials
+2026-02-28 07:06:29,963 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:06:34,966 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:06:34,970 - INFO - Loaded existing credentials
+2026-02-28 07:06:35,000 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:06:40,009 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:06:40,011 - INFO - Loaded existing credentials
+2026-02-28 07:06:40,076 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:06:40,076 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:06:40,077 - INFO - Retrying in 5 seconds...
+2026-02-28 07:06:45,085 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:06:45,087 - INFO - Loaded existing credentials
+2026-02-28 07:06:45,089 - WARNING - Auth attempt 1/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:06:50,092 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:06:50,095 - INFO - Loaded existing credentials
+2026-02-28 07:06:50,113 - WARNING - Auth attempt 2/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:06:55,115 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:06:55,121 - INFO - Loaded existing credentials
+2026-02-28 07:06:55,124 - WARNING - Auth attempt 3/3 failed: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:06:55,125 - ERROR - Error in watcher loop: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 07:06:55,128 - INFO - Retrying in 5 seconds...
+2026-02-28 07:07:00,131 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:07:00,132 - INFO - Loaded existing credentials
+2026-02-28 07:07:22,776 - INFO - Refreshed access token
+2026-02-28 07:07:22,777 - INFO - Saved new token
+2026-02-28 07:07:22,782 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-02-28 07:07:24,898 - INFO - Gmail Watcher stopped by user
+2026-02-28 07:08:46,646 - INFO - ==================================================
+2026-02-28 07:08:46,647 - INFO - Gmail Watcher (Silver Tier) Starting...
+2026-02-28 07:08:46,647 - INFO - Poll interval: 120 seconds
+2026-02-28 07:08:46,647 - INFO - Needs_Action folder: C:\Users\tanze\OneDrive\Desktop\hackathon-0\AI_Employee_Folder\Needs_Action
+2026-02-28 07:08:46,647 - INFO - ==================================================
+2026-02-28 07:08:46,648 - INFO - Found credentials file: client_secret_435714994939-4d5ohkpnnc92f5el52nltpim6t8j815u.apps.googleusercontent.com.json
+2026-02-28 07:08:46,671 - INFO - Loaded existing credentials
+2026-02-28 07:08:46,678 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-02-28 07:08:48,272 - INFO - Fetched email: A shipment from order #2555067 has been delivered
+2026-02-28 07:08:48,651 - INFO - Fetched email: [GitHub] Sudo email verification code
+2026-02-28 07:08:49,005 - INFO - Fetched email: [GitHub] Sudo email verification code
+2026-02-28 07:08:49,474 - INFO - Fetched email: Verify your email to continue to Proton
+2026-02-28 07:08:50,798 - INFO - Fetched email: Your Snapchat data is ready for download
+2026-02-28 07:08:51,519 - INFO - Fetched email: Microsoft account security info was deleted
+2026-02-28 07:08:52,038 - INFO - Fetched email: Yay! Your first listing is live.
+2026-02-28 07:08:52,414 - INFO - Fetched email: Aiman, these Creative Writing, Ghostwriting, and C
+2026-02-28 07:08:52,776 - INFO - Fetched email: Exclusive Interview with Governor Sindh Kamran Kha
+2026-02-28 07:08:53,205 - INFO - Fetched email: 359178 is your password reset code
+2026-02-28 07:08:53,205 - INFO - Found 10 unread important email(s)
+2026-02-28 07:08:53,207 - INFO - Created action file: gmail_20260228_070853_A shipment from order #2555067 has been delivered.md
+2026-02-28 07:08:53,208 - INFO - Processed email ID: 19b7f50da4baa673
+2026-02-28 07:08:53,209 - INFO - Created action file: gmail_20260228_070853_[GitHub] Sudo email verification code.md
+2026-02-28 07:08:53,209 - INFO - Processed email ID: 19b353d487fe96e9
+2026-02-28 07:08:53,211 - INFO - Created action file: gmail_20260228_070853_[GitHub] Sudo email verification code.md
+2026-02-28 07:08:53,214 - INFO - Processed email ID: 19b3027de8451370
+2026-02-28 07:08:53,215 - INFO - Created action file: gmail_20260228_070853_Verify your email to continue to Proton.md
+2026-02-28 07:08:53,217 - INFO - Processed email ID: 19abf20d019dde65
+2026-02-28 07:08:53,219 - INFO - Created action file: gmail_20260228_070853_Your Snapchat data is ready for download.md
+2026-02-28 07:08:53,221 - INFO - Processed email ID: 19a9e90933dabbcf
+2026-02-28 07:08:53,224 - INFO - Created action file: gmail_20260228_070853_Microsoft account security info was deleted.md
+2026-02-28 07:08:53,225 - INFO - Processed email ID: 196e99ab4b546aeb
+2026-02-28 07:08:53,227 - INFO - Created action file: gmail_20260228_070853_Yay! Your first listing is live..md
+2026-02-28 07:08:53,228 - INFO - Processed email ID: 196ae3b90951daa7
+2026-02-28 07:08:53,229 - INFO - Created action file: gmail_20260228_070853_Aiman, these Creative Writing, Ghostwriting, and C.md
+2026-02-28 07:08:53,230 - INFO - Processed email ID: 1964c83426def70e
+2026-02-28 07:08:53,235 - INFO - Created action file: gmail_20260228_070853_Exclusive Interview with Governor Sindh Kamran Kha.md
+2026-02-28 07:08:53,237 - INFO - Processed email ID: 196158533eb6159a
+2026-02-28 07:08:53,239 - INFO - Created action file: gmail_20260228_070853_359178 is your password reset code.md
+2026-02-28 07:08:53,242 - INFO - Processed email ID: 195952061b10e490
+2026-02-28 07:08:53,243 - INFO - Check completed at 2026-02-28 07:08:53
+2026-02-28 07:08:53,244 - INFO - Next check in 120 seconds...
+2026-02-28 07:10:29,078 - INFO - Gmail Watcher stopped by user

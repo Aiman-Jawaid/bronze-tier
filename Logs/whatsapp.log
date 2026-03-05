@@ -1,0 +1,36 @@
+2026-02-28 07:45:33,486 - INFO - ==================================================
+2026-02-28 07:45:33,486 - INFO - WhatsApp Watcher (Silver Tier) Starting...
+2026-02-28 07:45:33,487 - INFO - Poll interval: 30 seconds
+2026-02-28 07:45:33,487 - INFO - Headless: False
+2026-02-28 07:45:33,487 - INFO - Session folder: C:\Users\tanze\OneDrive\Desktop\hackathon-0\whatsapp_session
+2026-02-28 07:45:33,487 - INFO - Priority keywords: urgent, invoice, payment, help, asap
+2026-02-28 07:45:33,487 - INFO - ==================================================
+2026-02-28 07:45:33,488 - INFO - Starting browser...
+2026-02-28 07:45:42,914 - INFO - Browser closed
+2026-02-28 07:49:21,597 - INFO - ==================================================
+2026-02-28 07:49:21,598 - INFO - WhatsApp Watcher (Silver Tier) Starting...
+2026-02-28 07:49:21,598 - INFO - Poll interval: 30 seconds
+2026-02-28 07:49:21,598 - INFO - Headless: False
+2026-02-28 07:49:21,599 - INFO - Session folder: C:\Users\tanze\OneDrive\Desktop\hackathon-0\whatsapp_session
+2026-02-28 07:49:21,599 - INFO - Priority keywords: urgent, invoice, payment, help, asap
+2026-02-28 07:49:21,599 - INFO - ==================================================
+2026-02-28 07:49:21,599 - INFO - Starting browser...
+2026-02-28 07:49:24,024 - INFO - Browser started successfully
+2026-02-28 07:49:24,025 - INFO - Navigating to WhatsApp Web...
+2026-02-28 07:49:35,627 - INFO - WhatsApp Web loaded
+2026-02-28 07:49:35,676 - INFO - Already authenticated
+2026-02-28 07:49:35,677 - INFO - Performing initial check...
+2026-02-28 07:49:45,685 - ERROR - Error getting unread chats: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("div[data-testid=\"chat-list\"]") to be visible
+
+2026-02-28 07:49:45,685 - INFO - No unread messages found
+2026-02-28 07:49:45,686 - INFO - Starting polling loop (every 30s)...
+2026-02-28 07:49:53,047 - ERROR - Error getting unread chats: Page.wait_for_selector: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("div[data-testid=\"chat-list\"]") to be visible
+
+2026-02-28 07:49:53,060 - INFO - No unread messages found
+2026-02-28 07:49:53,062 - INFO - Next check in 30 seconds...
+2026-02-28 07:49:58,004 - INFO - Watcher stopped by user
+2026-02-28 07:49:58,056 - ERROR - Error closing browser: BrowserContext.close: Target page, context or browser has been closed

@@ -1,0 +1,25 @@
+2026-02-26 10:50:55,669 - INFO - ==================================================
+2026-02-26 10:50:55,672 - INFO - AI Employee File Watcher Started
+2026-02-26 10:50:55,676 - INFO - Monitoring: C:\Users\tanze\OneDrive\Desktop\hackathon-0\AI_Employee_Folder\Inbox
+2026-02-26 10:50:55,677 - INFO - Output to: C:\Users\tanze\OneDrive\Desktop\hackathon-0\AI_Employee_Folder\Needs_Action
+2026-02-26 10:50:55,679 - INFO - Log file: C:\Users\tanze\OneDrive\Desktop\hackathon-0\AI_Employee_Folder\Logs\watcher.log
+2026-02-26 10:50:55,680 - INFO - ==================================================
+2026-02-26 10:50:55,686 - INFO - Press Ctrl+C to stop...
+2026-02-26 10:50:55,709 - INFO - Watcher is now running...
+2026-02-26 10:51:39,262 - INFO - ==================================================
+2026-02-26 10:51:39,262 - INFO - AI Employee File Watcher Started
+2026-02-26 10:51:39,264 - INFO - Monitoring: C:\Users\tanze\OneDrive\Desktop\hackathon-0\AI_Employee_Folder\Inbox
+2026-02-26 10:51:39,264 - INFO - Output to: C:\Users\tanze\OneDrive\Desktop\hackathon-0\AI_Employee_Folder\Needs_Action
+2026-02-26 10:51:39,264 - INFO - Log file: C:\Users\tanze\OneDrive\Desktop\hackathon-0\AI_Employee_Folder\Logs\watcher.log
+2026-02-26 10:51:39,264 - INFO - ==================================================
+2026-02-26 10:51:39,265 - INFO - Press Ctrl+C to stop...
+2026-02-26 10:51:39,268 - INFO - Watcher is now running...
+2026-02-26 10:52:03,923 - INFO - New file detected: content.md
+2026-02-26 10:52:03,924 - INFO - New file detected: content.md
+2026-02-26 10:52:03,971 - INFO - Processed: content.md -> content.md
+2026-02-26 10:52:03,973 - INFO - Processed: content.md -> content_1.md.md
+2026-02-26 11:04:32,999 - INFO - New file detected: plan.md
+2026-02-26 11:04:33,003 - INFO - Processed: plan.md -> plan.md
+2026-02-26 11:04:33,056 - INFO - Processed: plan.md -> plan_1.md.md
+2026-02-26 11:05:57,100 - INFO - Shutdown signal received...
+2026-02-26 11:05:57,102 - INFO - Watcher stopped.
